@@ -1,0 +1,191 @@
+html {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    font-family: 'Inconsolata';
+}
+
+nav {
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    right: 0;
+    font-family: 'Prata', serif;
+    font-size: 22px;
+    background-color: #f8c0d9;
+    padding: 15px 0 5px 0;
+}
+
+.navigation {
+    text-align: center;
+}
+
+.navigation li a {
+    color: #e41f1c;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Prata', serif;
+}
+
+h1 {
+    font-size: 150px;
+    font-weight: normal;
+    margin: 0em;
+}
+
+h2 {
+    font-size: 100px;
+}
+
+h3 {
+    font-size: 50px;
+}
+
+h4 {
+    font-size: 32px;
+    color: white;
+    background-color: #f22124;
+    display: inline-block;
+    margin: 0px;
+    padding: 4px;
+}
+
+
+.work a {
+     letter-spacing: 3px;
+     color: #53c3c4;
+     font-size: 18px;
+     text-decoration: none;
+     font-weight: bold;
+
+ }
+.work h2 {
+    color: #f06b1c;
+}
+
+.team h2 {
+    color: #fe84b7;
+}
+
+.img-margin {
+    margin-bottom: 60px;
+    width: 100%;
+}
+
+.contact h2 {
+    color: #f3747b;
+}
+
+.work h3 {
+    color: #2a538b;
+}
+
+.team h3 {
+    color:#306fbf;
+    margin: 0 0 70px 0;
+    line-height: 100%;
+    font-size: 50px;
+}
+
+.team p {
+    line-height: 145%;
+}
+
+.navigation li {
+    display: inline-block;
+    margin: 0 15px;
+    color: #27bcb8;
+    font-size: 22px; 
+}
+
+.left-col, .right-col {
+    color: white;
+    text-align: center;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-col {
+    background-color: #36b645;
+    
+}
+
+.right-col {
+    background-color: #fc77a6;
+
+}
+
+.top-container {
+    width: 500px;
+    margin: 0 auto;
+}
+
+.scroll {
+    color: #2864b1;
+    font-size: 18px;
+    text-align: center;
+}
+
+.work {
+    color: #0e726f;
+}
+
+.extra-gutters {
+    padding: 0 60px;
+}
+
+.right-align {
+    text-align: right;
+}
+
+.work-img {
+    position: relative;
+    width: 100%;
+}
+
+.work h4 {
+    position: absolute;
+    z-index: 1;
+    top: -25px;
+}
+
+.work h4.right-align {
+    right: 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+
+footer {
+    background-color: #f5979c;
+    min-height: 220px;
+    background-image: url('../img/socialmedia.svg');
+    background-repeat: no-repeat;
+    background-size: 60%;
+    background-position: center;
+    color: white;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 60px;
+}
+
+.social-icon {
+    height: 60px;
+    margin: 10px 20px;
+
+}
+
+.social-icons-container {
+    text-align: center;
+}
