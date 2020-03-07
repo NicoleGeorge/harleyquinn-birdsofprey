@@ -1,2 +1,4 @@
 # harleyquinn_portfolio
-Week 2 - Homework portfolio website
+Birds of Prey Website
+
+Featuring the one and only Harley Quinn. 
